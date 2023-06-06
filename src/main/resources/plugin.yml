@@ -1,0 +1,19 @@
+name: LastSeen
+main: io.github.meeples10.lastseen.Main
+version: %PROJECT_VERSION%
+author: Meeples10
+description: %PROJECT_DESCRIPTION%
+api-version: 1.19
+commands:
+  seen:
+    description: View when a player was last online.
+    usage: /seen <name or UUID>
+    permission: lastseen.use
+    default: true
+permissions:
+  lastseen.use:
+    description: Allows players to use /seen to view when a player was last online.
+    default: true
+  lastseen.location:
+    description: Allows /seen to show the player's last location.
+    default: op
