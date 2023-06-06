@@ -1,0 +1,10 @@
+# The format string to use for dates. See here for more information:
+# https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/text/SimpleDateFormat.html
+date-format: "d MMM yyyy 'at' KK:mm:ss a zzz"
+
+messages:
+  no-permission: "&cYou do not have permission to use this command."
+  player-not-found: "&4ⓘ&7 Player not found"
+  player-online: "&3ⓘ&7 &b%s&7 is currently &aonline&7"
+  player-last-seen: "&3ⓘ&7 &b%1$s&7 was last seen &b%2$s&7"
+  player-location: "&3ⓘ&7 Last location: [&b%1$.1f&7, &b%2$.1f&7, &b%3$.1f&7] in &b%4$s&7"
