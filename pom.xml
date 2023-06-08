@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.meeples10</groupId>
 	<artifactId>lastseen</artifactId>
-	<version>1.0.0</version>	<name>LastSeen</name>
+	<version>1.0.1</version>	<name>LastSeen</name>
 	<description>A plugin for viewing when a player was last online.</description>
 	<build>
 		<plugins>
