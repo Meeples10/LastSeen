@@ -105,9 +105,9 @@ public class Main extends JavaPlugin implements Listener {
         FileConfiguration c = YamlConfiguration.loadConfiguration(playersFile);
         for(String key : c.getKeys(false)) {
             if(key.equalsIgnoreCase(s)) {
-                return PlayerData.load(c);
+                return PlayerData.load(c.getConfigurationSection(key));
             } else {
-                PlayerData pd = PlayerData.load(c);
+                PlayerData pd = PlayerData.load(c.getConfigurationSection(key));
                 if(pd.name.equalsIgnoreCase(s)) return pd;
             }
         }
